@@ -63,17 +63,17 @@ body {
   background-color: #f9faf8;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding-bottom: 60px;
-  padding-top: 20px;
+  gap: 30px;
+  padding: 20px 25% 60px 25%;
 }
 
 .info-images {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
 }
 
 .images-subtext {
@@ -84,4 +84,74 @@ body {
   border-radius: 3px;
   height: 150px;
   width: 150px;
+}
+
+/* Quote Section */
+.quote {
+  background-color: rgb(230, 230, 230);
+  padding: 20px 25% 60px 25%;
+}
+.paragraph {
+  font-style: italic;
+}
+
+.person {
+  display: flex;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+/* Action Section */
+.action {
+  padding: 40px 20%;
+  background-color: #f9faf8;
+}
+
+.action-container {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 9%;
+}
+
+.action-text {
+  /* display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  gap: 3px; */
+}
+.action-bold {
+  color: white;
+  font-weight: 900;
+}
+
+.action-thin {
+  color: white;
+  font-weight: 200;
+}
+
+.action-container button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  color: #e5e7eb;
+  margin-top: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 50px;
+  max-width: 100px;
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
